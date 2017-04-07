@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69B800C1E97F260005E5EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B800B1E97F260005E5EDB /* AppDelegate.swift */; };
+		F69B800E1E97F260005E5EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B800D1E97F260005E5EDB /* ViewController.swift */; };
+		F69B80111E97F260005E5EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69B800F1E97F260005E5EDB /* Main.storyboard */; };
+		F69B80141E97F260005E5EDB /* Agenda_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F69B80121E97F260005E5EDB /* Agenda_iOS.xcdatamodeld */; };
+		F69B80161E97F260005E5EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69B80151E97F260005E5EDB /* Assets.xcassets */; };
+		F69B80191E97F260005E5EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69B80171E97F260005E5EDB /* LaunchScreen.storyboard */; };
+		F69B80241E97F260005E5EDB /* Agenda_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B80231E97F260005E5EDB /* Agenda_iOSTests.swift */; };
+		F69B802F1E97F260005E5EDB /* Agenda_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B802E1E97F260005E5EDB /* Agenda_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69B80201E97F260005E5EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69B80001E97F25F005E5EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69B80071E97F25F005E5EDB;
+			remoteInfo = "Agenda-iOS";
+		};
+		F69B802B1E97F260005E5EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69B80001E97F25F005E5EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69B80071E97F25F005E5EDB;
+			remoteInfo = "Agenda-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F69B80081E97F260005E5EDB /* Agenda-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agenda-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B800B1E97F260005E5EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F69B800D1E97F260005E5EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F69B80101E97F260005E5EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69B80131E97F260005E5EDB /* Agenda_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Agenda_iOS.xcdatamodel; sourceTree = "<group>"; };
+		F69B80151E97F260005E5EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69B80181E97F260005E5EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F69B801A1E97F260005E5EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69B801F1E97F260005E5EDB /* Agenda-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agenda-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B80231E97F260005E5EDB /* Agenda_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda_iOSTests.swift; sourceTree = "<group>"; };
+		F69B80251E97F260005E5EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69B802A1E97F260005E5EDB /* Agenda-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agenda-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B802E1E97F260005E5EDB /* Agenda_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda_iOSUITests.swift; sourceTree = "<group>"; };
+		F69B80301E97F260005E5EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69B80051E97F25F005E5EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B801C1E97F260005E5EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B80271E97F260005E5EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69B7FFF1E97F25F005E5EDB = {
+			isa = PBXGroup;
+			children = (
+				F69B800A1E97F260005E5EDB /* Agenda-iOS */,
+				F69B80221E97F260005E5EDB /* Agenda-iOSTests */,
+				F69B802D1E97F260005E5EDB /* Agenda-iOSUITests */,
+				F69B80091E97F260005E5EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69B80091E97F260005E5EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69B80081E97F260005E5EDB /* Agenda-iOS.app */,
+				F69B801F1E97F260005E5EDB /* Agenda-iOSTests.xctest */,
+				F69B802A1E97F260005E5EDB /* Agenda-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69B800A1E97F260005E5EDB /* Agenda-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F69B800B1E97F260005E5EDB /* AppDelegate.swift */,
+				F69B800D1E97F260005E5EDB /* ViewController.swift */,
+				F69B800F1E97F260005E5EDB /* Main.storyboard */,
+				F69B80151E97F260005E5EDB /* Assets.xcassets */,
+				F69B80171E97F260005E5EDB /* LaunchScreen.storyboard */,
+				F69B801A1E97F260005E5EDB /* Info.plist */,
+				F69B80121E97F260005E5EDB /* Agenda_iOS.xcdatamodeld */,
+			);
+			path = "Agenda-iOS";
+			sourceTree = "<group>";
+		};
+		F69B80221E97F260005E5EDB /* Agenda-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69B80231E97F260005E5EDB /* Agenda_iOSTests.swift */,
+				F69B80251E97F260005E5EDB /* Info.plist */,
+			);
+			path = "Agenda-iOSTests";
+			sourceTree = "<group>";
+		};
+		F69B802D1E97F260005E5EDB /* Agenda-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69B802E1E97F260005E5EDB /* Agenda_iOSUITests.swift */,
+				F69B80301E97F260005E5EDB /* Info.plist */,
+			);
+			path = "Agenda-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69B80071E97F25F005E5EDB /* Agenda-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B80331E97F260005E5EDB /* Build configuration list for PBXNativeTarget "Agenda-iOS" */;
+			buildPhases = (
+				F69B80041E97F25F005E5EDB /* Sources */,
+				F69B80051E97F25F005E5EDB /* Frameworks */,
+				F69B80061E97F25F005E5EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agenda-iOS";
+			productName = "Agenda-iOS";
+			productReference = F69B80081E97F260005E5EDB /* Agenda-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69B801E1E97F260005E5EDB /* Agenda-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B80361E97F260005E5EDB /* Build configuration list for PBXNativeTarget "Agenda-iOSTests" */;
+			buildPhases = (
+				F69B801B1E97F260005E5EDB /* Sources */,
+				F69B801C1E97F260005E5EDB /* Frameworks */,
+				F69B801D1E97F260005E5EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69B80211E97F260005E5EDB /* PBXTargetDependency */,
+			);
+			name = "Agenda-iOSTests";
+			productName = "Agenda-iOSTests";
+			productReference = F69B801F1E97F260005E5EDB /* Agenda-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69B80291E97F260005E5EDB /* Agenda-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B80391E97F260005E5EDB /* Build configuration list for PBXNativeTarget "Agenda-iOSUITests" */;
+			buildPhases = (
+				F69B80261E97F260005E5EDB /* Sources */,
+				F69B80271E97F260005E5EDB /* Frameworks */,
+				F69B80281E97F260005E5EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69B802C1E97F260005E5EDB /* PBXTargetDependency */,
+			);
+			name = "Agenda-iOSUITests";
+			productName = "Agenda-iOSUITests";
+			productReference = F69B802A1E97F260005E5EDB /* Agenda-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69B80001E97F25F005E5EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SaulGarGar;
+				TargetAttributes = {
+					F69B80071E97F25F005E5EDB = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					F69B801E1E97F260005E5EDB = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69B80071E97F25F005E5EDB;
+					};
+					F69B80291E97F260005E5EDB = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69B80071E97F25F005E5EDB;
+					};
+				};
+			};
+			buildConfigurationList = F69B80031E97F25F005E5EDB /* Build configuration list for PBXProject "Agenda-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69B7FFF1E97F25F005E5EDB;
+			productRefGroup = F69B80091E97F260005E5EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69B80071E97F25F005E5EDB /* Agenda-iOS */,
+				F69B801E1E97F260005E5EDB /* Agenda-iOSTests */,
+				F69B80291E97F260005E5EDB /* Agenda-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69B80061E97F25F005E5EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B80191E97F260005E5EDB /* LaunchScreen.storyboard in Resources */,
+				F69B80161E97F260005E5EDB /* Assets.xcassets in Resources */,
+				F69B80111E97F260005E5EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B801D1E97F260005E5EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B80281E97F260005E5EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69B80041E97F25F005E5EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B80141E97F260005E5EDB /* Agenda_iOS.xcdatamodeld in Sources */,
+				F69B800E1E97F260005E5EDB /* ViewController.swift in Sources */,
+				F69B800C1E97F260005E5EDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B801B1E97F260005E5EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B80241E97F260005E5EDB /* Agenda_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B80261E97F260005E5EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B802F1E97F260005E5EDB /* Agenda_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69B80211E97F260005E5EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69B80071E97F25F005E5EDB /* Agenda-iOS */;
+			targetProxy = F69B80201E97F260005E5EDB /* PBXContainerItemProxy */;
+		};
+		F69B802C1E97F260005E5EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69B80071E97F25F005E5EDB /* Agenda-iOS */;
+			targetProxy = F69B802B1E97F260005E5EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69B800F1E97F260005E5EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69B80101E97F260005E5EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69B80171E97F260005E5EDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69B80181E97F260005E5EDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69B80311E97F260005E5EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F69B80321E97F260005E5EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69B80341E97F260005E5EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Agenda-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Agenda-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F69B80351E97F260005E5EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Agenda-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Agenda-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F69B80371E97F260005E5EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Agenda-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Agenda-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agenda-iOS.app/Agenda-iOS";
+			};
+			name = Debug;
+		};
+		F69B80381E97F260005E5EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Agenda-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Agenda-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agenda-iOS.app/Agenda-iOS";
+			};
+			name = Release;
+		};
+		F69B803A1E97F260005E5EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Agenda-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Agenda-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Agenda-iOS";
+			};
+			name = Debug;
+		};
+		F69B803B1E97F260005E5EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Agenda-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Agenda-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Agenda-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69B80031E97F25F005E5EDB /* Build configuration list for PBXProject "Agenda-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B80311E97F260005E5EDB /* Debug */,
+				F69B80321E97F260005E5EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69B80331E97F260005E5EDB /* Build configuration list for PBXNativeTarget "Agenda-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B80341E97F260005E5EDB /* Debug */,
+				F69B80351E97F260005E5EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F69B80361E97F260005E5EDB /* Build configuration list for PBXNativeTarget "Agenda-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B80371E97F260005E5EDB /* Debug */,
+				F69B80381E97F260005E5EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F69B80391E97F260005E5EDB /* Build configuration list for PBXNativeTarget "Agenda-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B803A1E97F260005E5EDB /* Debug */,
+				F69B803B1E97F260005E5EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F69B80121E97F260005E5EDB /* Agenda_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F69B80131E97F260005E5EDB /* Agenda_iOS.xcdatamodel */,
+			);
+			currentVersion = F69B80131E97F260005E5EDB /* Agenda_iOS.xcdatamodel */;
+			path = Agenda_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F69B80001E97F25F005E5EDB /* Project object */;
+}
